@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_id"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="A     a"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="B     b"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="C    c"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_d"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="D    d"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_e"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="E    e"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_f"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="F     f"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_g"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="G    g"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="390dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_h"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="H    h"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_i"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="I       i"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="510dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_j"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="J      j"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_k"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="K     k"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_l"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="L      l"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_m"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="M    m"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_n"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="N    n"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_o"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="O    o"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_p"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="P    p"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="390dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_q"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="Q    q"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_r"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="R      r"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="510dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_s"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="S    s"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_t"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="T     t"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_u"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="U    u"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_v"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="V    v"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_w"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="W    w"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_x"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="X    x"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_y"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="Y    y"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="390dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_z"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:textSize="16sp"
+        android:text="Z    z"
+
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onAlphaClicked"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_status"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_speak"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_find"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_find"
+        android:layout_marginStart="570dp"
+        android:layout_marginTop="120dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="90sp"
+        android:textAlignment="center"
+        android:layout_marginStart="570dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_score"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Score: 0"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High score: 0"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="235dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
